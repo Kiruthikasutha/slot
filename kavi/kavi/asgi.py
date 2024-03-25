@@ -1,5 +1,5 @@
 """
-ASGI config for mk2 project.
+ASGI config for kavi project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mk2.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'kavi.settings')
 
 application = get_asgi_application()
