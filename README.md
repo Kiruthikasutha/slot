@@ -29,20 +29,27 @@ Execute the program using runserver command.
     <head>
         <title>SLOT TIMETABLE-KIRUTHIKA</title>
 </head>
-<body bgcolor="yellow">
+<body bgcolor="red">
     <center>
-    <img src="/static/logo.png" height="100" width="540">
+    <img src="saveethalogo.png" height="100" width="540">
     </center>
+    <style>
+        table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+    </style>
 <table border="3" cellspacing="4" cellpadding="6" align="center" bgcolor="lightgrey">
-<caption>SLOT TIMETABLE-KIRUTHIKA(212223040098)</caption>
+<caption style="color:rgb(12, 243, 112)">SLOT TIMETABLE-KIRUTHIKA(212223040098)</caption>
+
             <tr>
-               <th bgcolor="pink">Day/Time</th>
-               <th bgcolor="pink">Monday</th>
-               <th bgcolor="pink">Tuesday</th>
-               <th bgcolor="pink">Wednesday</th>
-               <th bgcolor="pink">Thursday</th>
-               <th bgcolor="pink">Friday</th>
-               <th bgcolor="pink">Saturday</th>
+               <th bgcolor="">Day/Time</th>
+               <th bgcolor="blue">Monday</th>
+               <th bgcolor="blue">Tuesday</th>
+               <th bgcolor="blue">Wednesday</th>
+               <th bgcolor="blue">Thursday</th>
+               <th bgcolor="blue">Friday</th>
+               <th bgcolor="blue">Saturday</th>
           </tr>
            <tr>
                <td>8:00-10:00</td>
@@ -87,11 +94,11 @@ Execute the program using runserver command.
          
           </tr>
 <table border="3" cellspacing="4" cellpadding="6" align="center" bgcolor="lightgrey">
-<caption>SUBJECT DETAILS</caption>
+<caption style="color:rgb(243, 224, 12)">SUBJECT DETAILS</caption>
           <tr>
-               <th bgcolor="pink">S.no</th>
-               <th bgcolor="pink">Subject Code</th>
-               <th bgcolor="pink">Subject Name</th>
+               <th bgcolor="blue">S.no</th>
+               <th bgcolor="blue">Subject Code</th>
+               <th bgcolor="blue">Subject Name</th>
                
           </tr>
           <tr>
@@ -139,7 +146,8 @@ Execute the program using runserver command.
 ```
 
 ## OUTPUT
-![output](<Screenshot 2024-03-18 142746 1.png>)
+![Uploading Screenshot 2024-04-25 112115.png…]()
+
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
