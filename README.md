@@ -146,7 +146,8 @@ Execute the program using runserver command.
 ```
 
 ## OUTPUT
-![Uploading Screenshot 2024-04-25 112115.png…]()
+![Screenshot 2024-04-25 112115](https://github.com/Kiruthikasutha/slot/assets/144979570/742681ee-1a06-407a-804b-445104381358)
+
 
 
 ## RESULT
